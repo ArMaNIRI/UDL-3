@@ -2,7 +2,9 @@
 name: ⬇️  01- Down load URL
 
 on:
+      
   workflow_dispatch:
+      inputs:
       urls:
         description: '🔗 لینک های دانلود (با فاصله جدا کنید)'
         required: false
